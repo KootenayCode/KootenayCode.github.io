@@ -1,16 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>KnitCode</title>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stitch Calculator</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Stitch Calculator </h1>
+
+        <fieldset>
   </head>
+
   <form>
     <label for="stCount">Stitch Count:</label>
-    <input type="text" id="stCount" name="Stitch Count">
+    <input type="text" id="stCount" name="stCount">
     <br>
     <label for="stIncrease"> How many stitches to increase?:<label>
-    <input type="text" id="stIncrease"  name="How many stiches to increase?"
+    <input type="text" id="stIncrease"  name="stIncrease">
     <input type="submit" value="Submit">
   </form>
 </html>
 <!-- Need to be able to add row/st count and then the instruction
 ie. 200sts increase/decrease 5 sts evenly -->
+<!-- Used styling from Aaron Cuddeback codepen.io-->
